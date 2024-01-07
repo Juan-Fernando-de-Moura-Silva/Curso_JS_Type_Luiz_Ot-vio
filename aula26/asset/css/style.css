@@ -59,3 +59,14 @@ form button:hover {
 .title {
   text-align: center;
 }
+.tabela{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.t1 {
+  text-align: center;
+}
+.t2 {
+  text-align: center;
+}
