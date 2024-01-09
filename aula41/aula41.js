@@ -6,18 +6,12 @@ function random(min, max) {
 }
 
 const min = 1;
-const max = 10;
+const max = 1;
 
 const max1 = (x, y) => {
-  if(x>y){
-    return(`o valor ${x} e maior que ${y}`);
-  }
-  if (y>x) {
-    return(`o valor ${y} e maior que ${x}`);
-  }
-  else{
-    return(`o valor ${x} e ${y} são iguais`);
-  }
+  if(x>y)return(`o valor ${x} e maior que ${y}`);
+  if(y>x)return(`o valor ${y} e maior que ${x}`);
+  return(`o valor ${x} e ${y} são iguais`);
 };
 console.log(max1(random(min,max), random(min,max)));
 
