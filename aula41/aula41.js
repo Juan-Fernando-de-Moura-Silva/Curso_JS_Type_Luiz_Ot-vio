@@ -8,7 +8,7 @@ function random(min, max) {
 const min = 1;
 const max = 10;
 
-const max2 = (x, y) => {
+const max1 = (x, y) => {
   if(x>y){
     return(`o valor ${x} e maior que ${y}`);
   }
@@ -19,4 +19,8 @@ const max2 = (x, y) => {
     return(`o valor ${x} e ${y} são iguais`);
   }
 };
-console.log(max2(random(min,max), random(min,max)));
+console.log(max1(random(min,max), random(min,max)));
+
+const max2 = (x, y) => x > y ? x : y;
+console.log(max2(random(min,max),random(min,max)));
+
