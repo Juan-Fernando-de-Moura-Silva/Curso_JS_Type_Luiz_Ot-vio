@@ -21,7 +21,7 @@ try {
   console.log(hora);
 } catch(e) {
   // Tratar erro
-  console.log(e);
+  // console.log(e);
 } finally {
   console.log('Tenha um bom dia.');
 }
