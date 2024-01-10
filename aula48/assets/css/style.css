@@ -60,7 +60,26 @@ p button:hover {
 .titulo{
   text-align: center;
 }
+ul {
 
-li{
-  text-size-adjust: 200;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+li {
+  quotes: none;
+  justify-content: space-between;
+  
+}
+
+li button {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
 }
