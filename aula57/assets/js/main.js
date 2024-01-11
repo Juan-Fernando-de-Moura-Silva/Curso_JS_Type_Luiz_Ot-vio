@@ -85,3 +85,4 @@ function criaCalculadora() {
 
 const calculadora = criaCalculadora();
 calculadora.inicia();
+//corrigindo um erro
