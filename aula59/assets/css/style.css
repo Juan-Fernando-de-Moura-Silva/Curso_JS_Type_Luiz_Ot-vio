@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  text-align: center;
+  margin: 50px auto;
+}
+
+.calculadora {
+  border-collapse: collapse;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.calculadora td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.display {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: right;
+  font-size: 2em; 
+}
+
+.btn {
+  width: 100%;
+  height: 50px;
+  font-size: 1.2em;
+  border: none;
+  background: #dfdfdf;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #9e9e9e;
+}
+
+.btn-clear {
+  background-color: red;
+  color: #fff;
+}
+
+.btn-clear:hover {
+  background-color: rgb(173, 2, 2);
+  color: #fff;
+}
+
+.btn-eq {
+  background-color: rgb(130, 216, 0);
+  color:black;
+}
+
+.btn-eq:hover {
+  background-color: rgb(88, 144, 5);
+  color:black;
+}
+
+.btn-del {
+  background-color: yellow;
+  color: black;
+}
+
+.btn-del:hover {
+  background-color: rgb(177, 177, 2);
+  color: black;
+}
+
+tbody {
+  background-color:#fff;
+}
