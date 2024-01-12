@@ -31,3 +31,4 @@ const data = new Date(); // <-- Date = Função construtora
 
 console.dir(pessoa1);
 console.dir(data);
+//
