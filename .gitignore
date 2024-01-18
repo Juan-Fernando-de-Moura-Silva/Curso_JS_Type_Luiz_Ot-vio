@@ -1,0 +1,9 @@
+*node_modules/*
+tests
+.vscode
+node-modules
+.env
+env
+venv
+testes
+.DS_Store
